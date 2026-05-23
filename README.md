@@ -6,7 +6,7 @@ End-to-end UI automation for the [OrangeHRM demo](https://opensource-demo.orange
 
 1. Open the login URL
 2. Read and use the credentials shown on the login page
-3. Navigate to **Admin → User Management**
+3. Navigate to **Admin > User Management**
 4. Select **Users**, then click **Add** to open the create-user form
 5. Fill all required fields and save
 6. Verify successful creation
