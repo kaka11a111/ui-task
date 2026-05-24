@@ -2,17 +2,6 @@
 
 End-to-end UI automation for the [OrangeHRM demo](https://opensource-demo.orangehrmlive.com/web/index.php/auth/login) using **Selenium 4**, **Cucumber (BDD)**, and the **Page Object Model**.
 
-## Test flow
-
-1. Open the login URL
-2. Read and use the credentials shown on the login page
-3. Navigate to **Admin > User Management**
-4. Select **Users**, then click **Add** to open the create-user form
-5. Fill all required fields and save
-6. Verify successful creation
-7. Search by the new username
-8. Verify the user appears in **Records Found**
-
 ## Prerequisites
 
 - **JDK 11+**
@@ -42,12 +31,6 @@ src/test/resources/
 ```bash
 cd orangehrm-ui-automation
 mvn clean test
-```
-
-Run with a specific tag:
-
-```bash
-mvn clean test -Dcucumber.filter.tags=@smoke
 ```
 
 ## Configuration
